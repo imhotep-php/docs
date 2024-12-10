@@ -215,9 +215,9 @@ Cache::flush();
 
 namespace App\Extensions;
 
-use Imhotep\Contracts\Cache\Store;
+use Imhotep\Contracts\Cache\CacheStoreInterface;
 
-class MyCacheStore implements Store
+class MyCacheStore implements CacheStoreInterface
 {
     // ...
 }
